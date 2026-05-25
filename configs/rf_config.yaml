@@ -1,0 +1,16 @@
+# Random Forest hyperparameter grid search configuration
+corr_threshold: 0.9
+near_zero_variance_threshold: 0.01
+
+param_grid:
+  n_estimators: [100, 200, 500]
+  max_depth: [null, 10, 20, 30]
+  min_samples_split: [2, 5, 10]
+  class_weight: ["balanced", null]
+
+# Optimal configuration (from thesis Section 3.4.1)
+best_params:
+  n_estimators: 200
+  max_depth: null
+  min_samples_split: 5
+  class_weight: "balanced"

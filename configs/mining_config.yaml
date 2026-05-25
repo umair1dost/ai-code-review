@@ -1,0 +1,25 @@
+# GitHub repository mining configuration (thesis Section 3.2)
+languages:
+  - python
+  - java
+
+# Repository selection criteria
+min_stars: 100
+min_commits: 500
+min_loc: 1000
+max_repos_per_language: 256   # 256 × 2 = 512 total (as in thesis)
+
+# SZZ commit message patterns
+bug_keywords:
+  - fix
+  - bug
+  - defect
+  - issue
+  - error
+  - patch
+  - fault
+  - repair
+
+# API rate limiting
+sleep_between_repos: 1.0      # seconds
+sleep_between_pages: 0.5      # seconds

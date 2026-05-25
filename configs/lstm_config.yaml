@@ -1,0 +1,20 @@
+# LSTM training configuration (thesis Section 3.4.2)
+vocab_size: 10000
+embed_dim: 128
+seq_len: 512
+dropout: 0.3
+
+# Training
+epochs: 30
+batch_size: 64
+learning_rate: 0.001
+early_stopping_patience: 5
+monitor: "val_loss"
+
+# Architecture
+lstm_units: [128, 64]
+dense_units: 64
+activation: "relu"
+output_activation: "sigmoid"
+loss: "binary_crossentropy"
+optimizer: "adam"

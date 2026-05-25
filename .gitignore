@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Data — never commit raw repository data or large binary datasets
+data/raw/
+data/processed/
+
+# Trained model artefacts — too large for git; use Git LFS or DVC
+backend/models/*.joblib
+backend/models/lstm_model/
+backend/models/*.h5
+backend/models/*.json   # evaluation outputs
+
+# Environment
+.env
+*.env
+
+# Node / Angular
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
