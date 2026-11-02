@@ -13,6 +13,21 @@
 
 ---
 
+## Original Final-Year Project Report
+
+The original final-year project report submitted to the **Institute of Management Sciences (IMSciences), Peshawar** is intended to be available here:
+
+**[Read the Original Final-Year Project Report (PDF)](docs/New_Umair_Final_Year_Project_AI_Code_Review_Bug_Prediction.pdf)**
+
+**Project:** AI-Powered Code Review and Bug Prediction System  
+**Authors:** Muhammad Nasir Khan · Ahmed Khan Khisro · Umair Dost  
+**Supervisor:** Mr. Omar Bin Samin  
+**Session:** 2021–2025
+
+> Note: The PDF must be uploaded to the linked `docs/` path for this link to open. The report itself should remain unchanged.
+
+---
+
 ## Overview
 
 This project presents a hybrid AI system that automates software code review and predicts bug-prone modules. It combines a **Random Forest classifier** (trained on 87 software metrics) with an **LSTM neural network** (operating on tokenised source code) in a soft-voting ensemble, achieving **87.1% accuracy** and **AUC-ROC of 0.94** on a held-out test set of 2,812 labelled modules.
