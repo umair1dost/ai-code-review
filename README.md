@@ -15,7 +15,9 @@
 
 ## Original Final-Year Project Report
 
-The original final-year project report submitted to the **Institute of Management Sciences (IMSciences), Peshawar** will be provided as a PDF in this repository once the file upload is complete.
+The original final-year project report submitted to the **Institute of Management Sciences (IMSciences), Peshawar** is available below.
+
+**[Read the Original Final-Year Project Report (PDF)](docs/New_Umair_Final_Year_Project_AI_Code_Review_Bug_Prediction.pdf)**
 
 **Project:** AI-Powered Code Review and Bug Prediction System  
 **Authors:** Muhammad Nasir Khan · Ahmed Khan Khisro · Umair Dost  
